@@ -1,0 +1,11 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  justify-content: center;
+}
+.parent > img {
+  width: 20%;
+  margin: 1%;
+  height: 250px;
+}
