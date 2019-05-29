@@ -5,13 +5,12 @@ function showUrl() {
   var array = str.split("#");
   return array[0];
 }
-
 document.getElementById("res").innerHTML = showUrl();
 
 function sumOfArray(...args) {
   let arry = [...args];
 
-  let arry2 = arry.split(",").map(a => {
+  let arry2 = arry.map(a => {
     return a.parseInt(a, 10);
   });
 
