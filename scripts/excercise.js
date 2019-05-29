@@ -31,7 +31,7 @@ function sumOfArrayContiguous(...args) {
   if (arry == "") {
     return 0;
   } else {
-    let arry2 = arry.split(",").map(a => {
+    let arry2 = arry.map(a => {
       return a.parseInt(a, 10);
     });
     let sum = arry2.reduce((a, b) => a + b);
